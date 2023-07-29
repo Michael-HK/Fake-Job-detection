@@ -1,4 +1,4 @@
-# Fake-Job-detection
+# Fake-Job-detection (BERT model)
 The BERT model is applied for Fake-job detection and successfully fine-tuned with three different loss functions which are:
 * Cross Entropy loss
 * Cross Entropy loss with class weights integration to handle an unbalanced set that is obvious in the chosen dataset
