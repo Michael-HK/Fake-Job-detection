@@ -2,4 +2,8 @@ transformer
 sadice
 contractions
 inflect
+flask
+pandas
+numpy
+seaborn
 
