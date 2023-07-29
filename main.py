@@ -1,4 +1,4 @@
-from transformers import pipeline
+from transformers import pipeline, AutoModelForSequenceClassification
 import json
 import requests
 from bs4 import BeautifulSoup
