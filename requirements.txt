@@ -6,4 +6,5 @@ flask
 pandas
 numpy
 seaborn
+bs4
 
