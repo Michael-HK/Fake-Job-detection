@@ -7,8 +7,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 @app.route('/predict', methods = ['POST'])
 def job_authentication():
-  jsonfil = request.get_json()
-  url = dict(jsonfil)
+  url = json.loads(request.get_json())
   r = requests.get(url.values())
   soup = BeautifulSoup(r.text, 'html.parser')
   req = []
